@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        NumberOfDaysInMonth.getDaysInMonth(2,2020);
+        NumberOfDaysInMonth.getDaysInMonth(2,1000000);
+        NumberOfDaysInMonth.getDaysInMonth(-1,2020);
     }
 }
